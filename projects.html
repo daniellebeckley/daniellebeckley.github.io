@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Danielle Beckley</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+    <!-- Custom CSS -->
+    <style type="text/css"> 
+    
+    body {
+        padding-top: 70px;
+        font-family: Lato, sans-serif;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    h1{
+        font-size: 600%;
+    }
+    h2{
+        margin-left: 5%;
+    }
+    p{
+     margin-left: 10%;
+     font-size: 150%;
+     text-align: justify;
+    }
+    .navbar{
+        background-color: #fff;
+        border-bottom: red;
+        font-size: 150%;
+    }
+    .btn-group-vertical{
+        vertical-align: right;
+        width: 150px;
+        margin-top: 20px;
+    }
+    .btn-square{
+        letter-spacing: -1px;
+        font-size: 140%;
+        height: 95px;
+        background: none;
+        color:black;
+        border: 1px solid black;
+        border-radius: 0 !important;
+    }
+    .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+        color: black;
+        border-color: #e6e6e6;
+        background: repeating-linear-gradient(
+                      45deg,
+                      #cccccc,
+                      #cccccc 10px,
+                      #e6e6e6 10px,
+                      #e6e6e6 20px);
+    }
+
+    .workout-photo{
+        padding-top: -1px;  
+        width: 550px;
+        height: auto;
+        margin: auto;
+    }
+    .project-photo{
+        margin-left: 100px;
+    }
+
+    /* Skills */
+    .panel{
+        font-size: 110%;
+        border: 1px solid #c0c0c0;
+        width: 580px;
+        margin:auto;
+        border-radius: 0 !important;
+    }
+    .panel-tabs {
+        position: relative;
+        bottom: 30px;
+        clear:both;
+        border-bottom: 1px solid transparent;
+    }
+
+    .panel-tabs > li {
+        float: left;
+        margin-bottom: -1px;
+        letter-spacing: -1px;
+    }
+
+    .panel-tabs > li > a {
+        line-height: .85;
+        border: 1px solid transparent; 
+        color: #ffffff;
+    }
+
+    .panel-tabs > li > a:hover {
+        border-color: transparent;
+        color: black;
+        background-color: transparent;
+    }
+
+    .panel-tabs > li.active > a,
+    .panel-tabs > li.active > a:hover,
+    .panel-tabs > li.active > a:focus {
+        color: black;
+        cursor: default;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        background-color: rgba(255,255,255, 0);
+        border-bottom-color: transparent;
+    }
+    .panel-body{
+        height: auto;
+        width: 550px;
+    }
+    ul.nav a:hover { color: #e6e6e6 !important; }
+
+    footer{
+        font-size: 75%;
+    }
+ </style>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" >
+                    <li>
+                        <a href="index.html" style="color:black;">Index</a>
+                    </li>
+                    <li>
+                        <a href="projects.html" style="color:black;">Projects</a>
+                    </li>
+                    <li>
+                        <a href="resume.html" style="color:black;">Resume</a>
+                    </li>
+                    <li>
+                        <a href="about.html" style="color:black;">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                <h1>Projects</h1>
+                
+            </div>
+        </div>
+        <!-- Project 1-->
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9">
+                <h2>Workout Application-'Get That.'</h2>
+                <div class="panel panel-workout panel-primary">
+                    <div class="panel-heading" style="background-color: #c0c0c0;border-bottom:#c0c0c0;border-radius: 0 !important;">
+                        <h3 class="panel-title">Get That.</h3>
+                        <span class="pull-right">
+                            <!-- Tabs -->
+                            <ul class="nav panel-tabs">
+                                <li class="active"><a href="#tab1" data-toggle="tab">Splash</a></li>
+                                <li><a href="#tab2" data-toggle="tab">Quiz</a></li>
+                                <li><a href="#tab3" data-toggle="tab">Calendar</a></li>
+                                <li><a href="#tab4" data-toggle="tab">Workouts</a></li>
+                                <li><a href="#tab5" data-toggle="tab">Videos</a></li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab1"><img class="workout-photo" src="images/workout/splash.jpg" alt="splash"></div>
+                            <div class="tab-pane" id="tab2"><img class="workout-photo" src="images/workout/quiz.jpg" alt="quiz"></div>
+                            <div class="tab-pane" id="tab3"><img class="workout-photo" src="images/workout/calendar.jpg" alt="calendar"></div>
+                            <div class="tab-pane" id="tab4"><img class="workout-photo" src="images/workout/workouts.jpg" alt="workouts"></div>
+                            <div class="tab-pane" id="tab5"><img class="workout-photo" src="images/workout/videos.jpg" alt="videos"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <p>My favorite project thus far; this is a workout web application created using Ruby on Rails. I along with four other students created this application aimed at workout beginners. This application features individual user accounts where each user starts by creating a profile and answering a 10 question quiz.  The user's quiz data is then analyzed and a customized workout is created.  A custom calendar for each user is then populated based on creation date. Our application features videos showing correct execution of each move as well as detailed descriptions and tips. There is a user review page as well where users can rate and describe their workouts, allowing for communication between users in the platform. </p>
+                <p>Note: this application is not live.</p>
+                <br><br><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-0 btn-group-vertical">
+                <button type="button" class="btn btn-square">Ruby on Rails</button><br>
+                <button type="button" class="btn btn-square">CSS</button><br>
+                <button type="button" class="btn btn-square">HTML</button><br>
+                <button type="button" class="btn btn-square">SQL</button><br>
+            </div>
+        </div>
+
+        <!-- Project 2-->
+        <div class="row">
+            <h2>Google Chrome Extension built at HackOI/O</h2>
+            <div class="col-lg-9 col-md-9 col-sm-9">
+                <div class="panel panel-extension panel-primary">
+                    <div class="panel-heading" style="background-color: #c0c0c0;border-bottom:#c0c0c0;border-radius: 0 !important;">
+                        <h3 class="panel-title">Smart Shopper Extension</h3>
+                        <span class="pull-right">
+                            <!-- Tabs -->
+                            <ul class="nav panel-tabs">
+                                <li class="active"><a href="#extension-tab1" data-toggle="tab">Toolbar</a></li>
+                                <li><a href="#extension-tab2" data-toggle="tab">Adding</a></li>
+                                <li><a href="#extension-tab3" data-toggle="tab">Digest</a></li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div class="panel-body">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="extension-tab1"><img class="workout-photo" src="images/shopper/extension.jpg" alt="splash"></div>
+                            <div class="tab-pane" id="extension-tab2"><img class="workout-photo" src="images/shopper/adding.jpg" alt="quiz"></div>
+                            <div class="tab-pane" id="extension-tab3"><img class="workout-photo" src="images/shopper/summary.jpg" alt="quiz"></div>
+                        </div>
+                    </div>
+                </div>
+                <p>Working against the clock at a hackathon hosted at Ohio State, I along with two friends created a Google Chrome extension we felt was useful for the everyday shopper.  Using data collected from Facebook friends, we found that there is a large percent of online shoppers who avoid buying something because the price is too high.  Our extension allows users to select products with the click of a button where the information about the product is then saved. Users can save as many products as their hearts' desire.  Then every week a price comparison is performed and if lower than at the time of selection, is added to a digest. This digest is then sent to the user. </p><br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-0 btn-group-vertical">
+                <button type="button" class="btn btn-square">Ruby</button><br>
+                <button type="button" class="btn btn-square">Node.js</button><br>
+                <button type="button" class="btn btn-square">JSON</button><br>
+            </div>
+            <br/>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <p>You can check out the all code and many other projects on my GitHub Account <a href="https://github.com/daniellebeckley">@daniellebeckley</a></p>
+            </div>
+        </div>
+    </div><!-- /.container -->
+
+<!-- jQuery Version 1.11.1 -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<hr>
+<footer>
+    <p style="text-align:center">Created by Danielle Beckley</p>
+    <p style="text-align:center">Contact: beckley.52 @ osu.edu </p><br>
+</footer>
+</body>
+</html>
