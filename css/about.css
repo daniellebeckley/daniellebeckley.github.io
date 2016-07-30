@@ -1,0 +1,42 @@
+body {
+    padding-top: 70px;
+    font-family: Lato, sans-serif;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.navbar{
+    background-color: #fff;
+    border-bottom: #EFDECD;
+    font-size: 150%;
+}
+ul.nav a:hover {
+    color: #c0c0c0 !important; 
+} 
+.me-photo{
+    width:100%;
+    height:auto;
+}
+p{
+    font-size: 150%;
+    text-align: center;
+}
+.hobby-photo{
+    width: 750px;
+    height: auto;
+}
+.line-photo{
+    width: 300px;
+    height: 200px;
+}
+.me-photo{
+    width: 400px;
+    height: auto;
+}
+@media (max-width: 767px) {
+    .hobby-photo{
+        width: 300px;
+    }
+    p{
+        font-size: 100%;
+    }
+
+}

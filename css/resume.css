@@ -1,0 +1,57 @@
+
+    body {
+        padding: 7%;
+        font-family: Lato, sans-serif;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    h2, h3, h4, h5{
+        text-align: left;
+    }
+    h1{
+        font-size: 550%;
+    }
+    h3{
+        text-indent: 30px;
+    }
+    h4{
+        text-indent: 50px;
+    }
+
+    .navbar{
+        background-color: #fff;
+        border-bottom: #EFDECD;
+        font-size: 150%;
+    }
+    ul.nav a:hover { color: #c0c0c0 !important; } 
+   
+   @media (max-width: 767px) {
+        h2, h3, h4{
+            text-indent: 2%;
+            text-align: center;
+        }
+        h3{
+            text-indent: 5%;
+
+        }
+        h4{
+            text-indent: 7%;
+        }
+
+    }
+    .skill-well:hover{
+        color:white;
+    }
+    .skill-group{
+        padding-top: 30px;
+        vertical-align: right;
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .skill-well{
+        letter-spacing: -1px;
+        font-size: 140%;
+        color:black;
+        background-color: #e6e6e6;
+        border-radius: 0 !important;
+    }

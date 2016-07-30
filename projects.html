@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -13,145 +12,10 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/projects.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-    <!-- Custom CSS -->
-    <style type="text/css"> 
     
-    body {
-        padding-top: 70px;
-        font-family: Lato, sans-serif;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    h1{
-        font-size: 600%;
-    }
-    h2{
-        margin-left: 5%;
-    }
-    p{
-     
-     font-size: 150%;
-     text-align: justify;
-    }
-    .navbar{
-        background-color: #fff;
-        border-bottom: red;
-        font-size: 150%;
-    }
-    .btn-group-vertical{
-        vertical-align: right;
-        width: 150px;
-        margin-top: 20px;
-    }
-    .btn-square{
-        letter-spacing: -1px;
-        font-size: 140%;
-        height: 95px;
-        background: none;
-        color:black;
-        border: 1px solid black;
-        border-radius: 0 !important;
-    }
-    .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
-        color: black;
-        border-color: #e6e6e6;
-        background: repeating-linear-gradient(
-                      45deg,
-                      #cccccc,
-                      #cccccc 10px,
-                      #e6e6e6 10px,
-                      #e6e6e6 20px);
-    }
-
-    .workout-photo{
-        padding-top: -1px;  
-        width: 550px;
-        height: auto;
-        margin: auto;
-    }
-
-
-    /* Skills */
-    .panel{
-        font-size: 110%;
-        border: 1px solid #c0c0c0;
-        width: 580px;
-        margin:auto;
-        border-radius: 0 !important;
-    }
-    .panel-tabs {
-        position: relative;
-        bottom: 30px;
-        clear:both;
-        border-bottom: 1px solid transparent;
-    }
-
-    .panel-tabs > li {
-        float: left;
-        margin-bottom: -1px;
-        letter-spacing: -1px;
-    }
-
-    .panel-tabs > li > a {
-        line-height: .85;
-        border: 1px solid transparent; 
-        color: #ffffff;
-    }
-
-    .panel-tabs > li > a:hover {
-        border-color: transparent;
-        color: black;
-        background-color: transparent;
-    }
-
-    .panel-tabs > li.active > a,
-    .panel-tabs > li.active > a:hover,
-    .panel-tabs > li.active > a:focus {
-        color: black;
-        cursor: default;
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        border-radius: 2px;
-        background-color: rgba(255,255,255, 0);
-        border-bottom-color: transparent;
-    }
-    .panel-body{
-        height: auto;
-        width: 550px;
-    }
-    ul.nav a:hover { color: #e6e6e6 !important; }
-
-    footer{
-        font-size: 75%;
-    }
-
-    @media (max-width: 767px) {
-        p{
-            font-size: 100%;
-        }
-        .panel{
-            width: 280px;
-            font-size: 80%;
-        }
-        .workout-photo{
-            padding-top: -1px;  
-            width: 250px;
-            height: 200px;
-            margin: auto;
-        }
-        a{
-            padding-top: 15px !important;
-            padding-left: 2px !important;
-            padding-right: 2px !important;
-        }
-        .btn-square{
-            width: 50px;
-        }
-
-    }
- </style>
-
 </head>
 
 <body>
@@ -230,11 +94,11 @@
                 <p>My favorite project thus far; this is a workout web application created using Ruby on Rails. I along with four other students created this application aimed at workout beginners. This application features individual user accounts where each user starts by creating a profile and answering a 10 question quiz.  The user's quiz data is then analyzed and a customized workout is created.  A custom calendar for each user is then populated based on creation date. Our application features videos showing correct execution of each move as well as detailed descriptions and tips. There is a user review page as well where users can rate and describe their workouts, allowing for communication between users in the platform. </p>
                 <p>Note: this application is not live.</p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 btn-group-vertical">
-                <button type="button" class="btn btn-square">Ruby on Rails</button><br>
-                <button type="button" class="btn btn-square">CSS</button><br>
-                <button type="button" class="btn btn-square">HTML</button><br>
-                <button type="button" class="btn btn-square">SQL</button><br>
+            <div class="col-lg-3 col-md-3 col-sm-3 skill-group">
+                <div class="well skill-well">Ruby on Rails</div>
+                <div class="well skill-well">CSS</div>
+                <div class="well skill-well">HTML</div>
+                <div class="well skill-well">SQL</div>
             </div>
             <br><br><br>
         </div>
@@ -242,7 +106,7 @@
         <!-- Project 2-->
         <div class="row">
             <h2>Google Chrome Extension built at HackOI/O</h2>
-            <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="col-lg-9 col-md-9 col-sm-9">
                 <div class="panel panel-extension panel-primary">
                     <div class="panel-heading" style="background-color: #c0c0c0;border-bottom:#c0c0c0;border-radius: 0 !important;">
                         <h3 class="panel-title">Smart Shopper</h3>
@@ -265,10 +129,11 @@
                 </div>
                 <p>Working against the clock at a hackathon hosted at Ohio State, I along with two friends created a Google Chrome extension we felt was useful for the everyday shopper.  Using data collected from Facebook friends, we found that there is a large percent of online shoppers who avoid buying something because the price is too high.  Our extension allows users to select products with the click of a button where the information about the product is then saved. Users can save as many products as their hearts' desire.  Then every week a price comparison is performed and if lower than at the time of selection, is added to a digest. This digest is then sent to the user. </p><br>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-0 btn-group-vertical">
-                <button type="button" class="btn btn-square">Ruby</button><br>
-                <button type="button" class="btn btn-square">Node.js</button><br>
-                <button type="button" class="btn btn-square">JSON</button><br>
+            <div class="col-lg-3 col-md-3 col-sm-3 skill-group">
+                <div class="well skill-well">Ruby</div>
+                <div class="well skill-well">Node.js</div>
+                <div class="well skill-well">JSON</div>
+                <div class="well skill-well">Chrome Extension</div>
             </div>
             <br/>
         </div>

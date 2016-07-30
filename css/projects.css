@@ -1,0 +1,123 @@
+
+    
+body {
+    padding-top: 70px;
+    font-family: Lato, sans-serif, Georgia;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+h1{
+    font-size: 600%;
+}
+p{
+ font-size: 150%;
+ text-align: justify;
+ padding-left: 5%;
+}
+.navbar{
+    background-color: #fff;
+    border-bottom: red;
+    font-size: 150%;
+}
+.skill-group{
+    padding-top: 30px;
+    vertical-align: right;
+    width: 150px;
+    margin-top: 20px;
+}
+.skill-well{
+    letter-spacing: -1px;
+    font-size: 140%;
+    background: #e6e6e6;
+    color:black;
+    border-radius: 0 !important;
+    text-align: center;
+}
+.skill-well:hover{
+    color:white;
+}
+.workout-photo{
+    padding-top: -1px;  
+    width: 550px;
+    height: auto;
+    margin: auto;
+}
+
+
+/* Skills */
+.panel{
+    font-size: 110%;
+    border: 1px solid #c0c0c0;
+    width: 580px;
+    margin:auto;
+    border-radius: 0 !important;
+}
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    letter-spacing: -1px;
+}
+
+.panel-tabs > li > a {
+    line-height: .85;
+    border: 1px solid transparent; 
+    color: #ffffff;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: black;
+    background-color: transparent;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: black;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, 0);
+    border-bottom-color: transparent;
+}
+.panel-body{
+    height: auto;
+    width: 550px;
+}
+ul.nav a:hover { color: #e6e6e6 !important; }
+
+footer{
+    font-size: 75%;
+}
+
+@media (max-width: 767px) {
+    p{
+        font-size: 100%;
+    }
+    .panel{
+        width: 280px;
+        font-size: 80%;
+    }
+    .workout-photo{
+        padding-top: -1px;  
+        width: 250px;
+        height: 200px;
+        margin: auto;
+    }
+    a{
+        padding-top: 15px !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+    .btn-square{
+        width: 50px;
+    }
+
+}
