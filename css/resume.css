@@ -2,10 +2,12 @@
     body {
         padding: 7%;
         font-family: Lato, sans-serif;
+        /*font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;*/
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
     h2, h3, h4, h5{
         text-align: left;
+        font-weight: bold;
     }
     h1{
         font-size: 550%;
@@ -21,6 +23,7 @@
         background-color: #fff;
         border-bottom: #EFDECD;
         font-size: 150%;
+        font-weight: normal;
     }
     ul.nav a:hover { color: #c0c0c0 !important; } 
    

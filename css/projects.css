@@ -3,6 +3,7 @@
 body {
     padding-top: 70px;
     font-family: Lato, sans-serif, Georgia;
+    font-weight: bold;
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 h1{
@@ -17,6 +18,7 @@ p{
     background-color: #fff;
     border-bottom: red;
     font-size: 150%;
+    font-weight: normal;
 }
 .skill-group{
     padding-top: 30px;
@@ -31,6 +33,7 @@ p{
     color:black;
     border-radius: 0 !important;
     text-align: center;
+    font-weight: normal;
 }
 .skill-well:hover{
     color:white;
