@@ -1,0 +1,18 @@
+body {
+    padding-top: 70px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.navbar{
+    background-color: #fff;
+    border-bottom: #EFDECD;
+    font-size: 150%;
+}
+ul.nav a:hover {
+    color: #c0c0c0 !important; 
+} 
+p{
+    font-size: 150%;
+    text-align: center;
+}
