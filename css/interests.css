@@ -13,6 +13,15 @@ ul.nav a:hover {
     color: #c0c0c0 !important; 
 } 
 p{
-    font-size: 150%;
-    text-align: center;
+    font-weight: 50%;
+    padding: 0 0;
+    margin: 0px;
+    padd
+}
+
+h1{
+    font-size: 650%;
+}
+.column{
+    padding-left: 25%;
 }

@@ -19,6 +19,7 @@ ul.nav a:hover {
 p{
     font-size: 150%;
     text-align: center;
+    margin-bottom: 0px;
 }
 .hobby-photo{
     width: 750px;
@@ -28,9 +29,19 @@ p{
     width: 300px;
     height: 200px;
 }
+.left-line-photo{
+    width: 525px;
+    height: 600px;
+
+}
 .me-photo{
     width: 400px;
     height: auto;
+}
+h1{
+    font-size: 650%;
+    height: 300px;
+    background-image:url('../images/about/echophoto.jpg');
 }
 @media (max-width: 767px) {
     .hobby-photo{
@@ -39,5 +50,4 @@ p{
     p{
         font-size: 100%;
     }
-
 }
