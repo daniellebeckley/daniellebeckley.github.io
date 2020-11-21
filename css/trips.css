@@ -1,0 +1,117 @@
+
+    
+body {
+    padding-top: 70px;
+    font-family: Lato, sans-serif, Georgia;
+    font-weight: bold;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+h1{
+    font-size: 600%;
+}
+
+.row{
+    margin-left: 0;
+}
+
+.navbar{
+    background-color: #fff;
+    border-bottom: red;
+    font-size: 150%;
+    font-weight: normal;
+}
+.trip-photo{
+    padding-top: -1px;  
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.nav{
+    color: black;
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card2{
+     width: 270px;
+    height: 200px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    width: 100%;
+    height: 100%;
+  background-color: lightgray;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+ul.nav a:hover { color: #e6e6e6 !important; }
+
+footer{
+    font-size: 75%;
+}
+
+@media (max-width: 767px) {
+    p{
+        font-size: 100%;
+    }
+    .panel{
+        width: 280px;
+        font-size: 80%;
+    }
+    .trip-photo{
+        padding-top: -1px;  
+        width: 250px;
+        height: 200px;
+        margin: auto;
+    }
+    a{
+        padding-top: 15px !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+    .btn-square{
+        width: 50px;
+    }
+}
