@@ -21,73 +21,23 @@ h1{
     font-size: 150%;
     font-weight: normal;
 }
-.trip-photo{
-    padding-top: -1px;  
-    width: 100%;
-    height: 100%;
-}
 
 .nav{
     color: black;
 }
-
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: transparent;
-  width: 400px;
-  height: 400px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-.flip-card4{
-    width: 570px;
-}
-
-.flip-card2{
-     width: 270px;
-    height: 200px;
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.5s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
+.trip-photo-2{
     width: 100%;
     height: 100%;
-  background-color: lightgray;
-  color: white;
-  transform: rotateY(180deg);
 }
+.trip-photo {   
+     width: 100%;
+    height: 100%;
 
-
+}
+.col-lg-6{
+padding: 0;
+}
+                    
 ul.nav a:hover { color: #e6e6e6 !important; }
 
 footer{
@@ -102,12 +52,12 @@ footer{
         width: 280px;
         font-size: 80%;
     }
-    .trip-photo{
+/*    .trip-photo, .trip-photo2{
         padding-top: -1px;  
         width: 250px;
         height: 200px;
         margin: auto;
-    }
+    }*/
     a{
         padding-top: 15px !important;
         padding-left: 2px !important;
