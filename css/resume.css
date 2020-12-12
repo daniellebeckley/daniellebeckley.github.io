@@ -20,14 +20,13 @@
         padding-left: 30px;
     }
 
-
     .navbar{
         background-color: #fff;
         border-bottom: #EFDECD;
         font-size: 150%;
         font-weight: normal;
     }
-    ul.nav a:hover { color: #c0c0c0 !important; } 
+    ul.nav a:hover { color: #18b6f0 !important; } 
    
    @media (max-width: 767px) {
         h2, h3, h4{
