@@ -26,6 +26,8 @@ function createMovieString(movies,element){
 	document.getElementById(element).innerHTML = con;
 
 }
+var books21 = [];
+
 
 var books20 = [
 {"title":"Awakenings", "author":"Oliver Sacks"},
@@ -87,6 +89,10 @@ var books18 = [
 {"title":"Sapiens: A Brief History of Humankind ", "author": " Yuval Noah Harari"}
 ];
 
+var movies21 = [
+{"title":"Foul Play: The draft night sabotage... <p><a href=\"https://tinyurl.com/y832c5as\">YouTube Link</p></a>"}
+
+]
 var movies201 = [
 {"title":"Uncut Gems (In Theatres! can you imagine)"},
 {"title":"Enough Said"},
@@ -100,7 +106,7 @@ var movies201 = [
 {"title":"Hot Rod"},
 {"title":"Bruce Almighty"},
 {"title":"Miss Americana"},
-{"title":"Polyect (school shooting Canada)"},
+{"title":"Polytechnique (school shooting Canada)"},
 {"title":"<h4>CORTEEN MOVIES</h4>"},
 {"title":"Side Effects - takes pills sues, setup"},
 {"title":"Marc Maron Special - End Times Fun"},
@@ -181,7 +187,23 @@ var movies202 = [{"title":"Nacho Libre"},
 {"title":"The Front Page"},
 {"title":"In The Loop"},
 {"title":"Hateful Eight"},
-{"title":"The Odd Couple"}
+{"title":"The Odd Couple"},
+{"title":"Knives Out"},
+{"title":"Mission Impossible 4"},
+{"title":"<h4>SERIES </h4>"},
+{"title":"Cheers"},
+{"title":"Fraiser Season 1"},
+{"title":"Chernobyl"},
+{"title":"Succession"},
+{"title":"The Righteous Gemstones"},
+{"title":"Working Moms"},
+{"title":"Community"},
+{"title":"True Detective (Season 1, couldn't make it through 2.. again)"},
+{"title":"Fargo"},
+{"title":"Younger"},
+{"title":"Waco"},
+{"title":"The Queen's Gambit"},
+{"title":"The Last Dance"}
 ];
 
 var movies19 = [
@@ -219,7 +241,6 @@ var movies19 = [
 
 
 var theater18 = [
-
 {"title":"Roma"},
 {"title":"Ralph Breaks The Internet"},
 {"title":"The Favourite"}, 
@@ -291,6 +312,9 @@ var movies18 = [
 {"title":"Jaws"},
 {"title":"The Florida Project"}
 ];
+
+createBookString(books21,"books21")
+createMovieString(movies21,"movies21");
 createBookString(books20,"books20")
 createMovieString(movies201,"movies201");
 createMovieString(movies202,"movies202");
