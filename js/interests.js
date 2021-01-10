@@ -26,7 +26,8 @@ function createMovieString(movies,element){
 	document.getElementById(element).innerHTML = con;
 
 }
-var books21 = [];
+var books21 = [
+{"title":"Headhunters", "author":"Jo Nesbø"}];
 
 
 var books20 = [
@@ -90,7 +91,8 @@ var books18 = [
 ];
 
 var movies21 = [
-{"title":"Foul Play: The draft night sabotage... <p><a href=\"https://tinyurl.com/y832c5as\">YouTube Link</p></a>"}
+{"title":"Foul Play: The draft night sabotage... <p><a href=\"https://tinyurl.com/y832c5as\"	>YouTube Link</p></a>"},
+{"title": "True Confessions"}
 
 ]
 var movies201 = [
@@ -189,6 +191,7 @@ var movies202 = [{"title":"Nacho Libre"},
 {"title":"Hateful Eight"},
 {"title":"The Odd Couple"},
 {"title":"Knives Out"},
+{"title":"Klaus"},
 {"title":"Mission Impossible 4"},
 {"title":"<h4>SERIES </h4>"},
 {"title":"Cheers"},
