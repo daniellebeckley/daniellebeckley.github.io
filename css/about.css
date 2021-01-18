@@ -1,24 +1,7 @@
-body {
-    padding-top: 70px;
-    font-family: Lato, sans-serif;
-    font-weight: bold;
-}
-.navbar{
-    background-color: #fff;
-    border-bottom: #EFDECD;
-    font-size: 150%;
-}
-ul.nav a:hover {
-    color: #18b6f0 !important; 
-} 
-#nav a{
-    color:black;
-}
 h1 {
     font-size: 650%;
 }
 p{
-    font-size: 150%;
     text-align: center;
     margin-bottom: 0px;
 }

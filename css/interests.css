@@ -1,24 +1,8 @@
-body {
-    padding-top: 70px;
-    font-family: Lato, sans-serif;
-    font-weight: bold;
-    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
-.navbar{
-    background-color: #fff;
-    border-bottom: #EFDECD;
-    font-size: 150%;
-}
-ul.nav a:hover {
-    color: #18b6f0 !important; 
-} 
 p{
-    font-weight: 50%;
+    font-size: 100%;
     padding: 0 0;
     margin: 0px;
-    padd
 }
-
 
 h1{
     font-size: 650%;
@@ -32,8 +16,4 @@ h3 {
 }
 .date{
     margin-bottom: -2%;
-}
-
-#nav a{
-    color:black;
 }

@@ -1,28 +1,8 @@
-
-    
-body {
-    padding-top: 70px;
-    font-family: Lato, sans-serif, Georgia;
-    font-weight: bold;
-    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
-h1{
-    font-size: 600%;
-}
-#nav a{
-    color:black;
-}
 p{
- font-size: 150%;
  text-align: justify;
  padding-left: 5%;
 }
-.navbar{
-    background-color: #fff;
-    border-bottom: red;
-    font-size: 150%;
-    font-weight: normal;
-}
+
 .skill-group{
     padding-top: 30px;
     vertical-align: right;
@@ -47,11 +27,6 @@ p{
     height: auto;
     margin: auto;
 }
-
-.nav{
-    color: black;
-}
-
 
 /* Skills */
 .panel{
@@ -101,7 +76,6 @@ p{
     height: auto;
     width: 550px;
 }
-ul.nav a:hover { color: #18b6f0 !important; }
 
 footer{
     font-size: 75%;

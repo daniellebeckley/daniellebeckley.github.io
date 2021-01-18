@@ -96,7 +96,7 @@ var movies21 = [
 {"title": "True Confessions"},
 {"title": "Cape Fear"},
 {"title": "High Fidelity"},
-{"title" : "SERIES"},
+{"title":"<h4>SERIES </h4>"},
 {"title": "Arrested Development"}
 ];
 
