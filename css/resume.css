@@ -20,6 +20,10 @@
         padding-left: 30px;
     }
 
+    #nav a{
+        color:black; 
+    }
+
     .navbar{
         background-color: #fff;
         border-bottom: #EFDECD;

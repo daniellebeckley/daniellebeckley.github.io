@@ -92,9 +92,14 @@ var books18 = [
 
 var movies21 = [
 {"title":"Foul Play: The draft night sabotage... <p><a href=\"https://tinyurl.com/y832c5as\"	>YouTube Link</p></a>"},
-{"title": "True Confessions"}
+{"title": "Two Popes"},
+{"title": "True Confessions"},
+{"title": "Cape Fear"},
+{"title": "High Fidelity"},
+{"title" : "SERIES"},
+{"title": "Arrested Development"}
+];
 
-]
 var movies201 = [
 {"title":"Uncut Gems (In Theatres! can you imagine)"},
 {"title":"Enough Said"},
@@ -326,6 +331,8 @@ createMovieString(movies19,"movies19");
 createBookString(books18,"books18");
 createMovieString(theater18,"theater18");
 createMovieString(movies18,"movies18");
+
+
 
 
 

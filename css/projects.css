@@ -9,6 +9,9 @@ body {
 h1{
     font-size: 600%;
 }
+#nav a{
+    color:black;
+}
 p{
  font-size: 150%;
  text-align: justify;

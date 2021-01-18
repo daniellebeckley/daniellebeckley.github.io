@@ -11,6 +11,9 @@ body {
 ul.nav a:hover {
     color: #18b6f0 !important; 
 } 
+#nav a{
+    color:black;
+}
 h1 {
     font-size: 650%;
 }
