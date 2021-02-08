@@ -27,7 +27,12 @@ function createMovieString(movies,element){
 
 }
 var books21 = [
-{"title":"Headhunters", "author":"Jo Nesbø"}];
+{"title":"Headhunters", "author":"Jo Nesbø"},
+{"title":"Rabbit, Run", "author":"John Updike"},
+{"title":"Rabbit Redux", "author":"John Updike"},
+{"title":"Carson McCullers (short story)", "author":"The Ballad of the Sad Cafe"}
+
+];
 
 
 var books20 = [
@@ -96,6 +101,18 @@ var movies21 = [
 {"title": "True Confessions"},
 {"title": "Cape Fear"},
 {"title": "High Fidelity"},
+{"title": "Let Them All Talk"},
+{"title": "Confessions of a Dangereous Mind"},
+{"title": "Mad Max Fury Road"},
+{"title": "Sexy Beast"},
+{"title": "Dead Poets Society"},
+{"title": "Insomnia"},
+{"title": "Mrs. Doubtfire"},
+{"title": "Spring Breakers"},
+{"title": "Lo and Behold Reveries of the Connected World"},
+{"title": "The Sound of Music"},
+{"title": "This is the End"},
+{"title": "Get Shorty"},
 {"title":"<h4>SERIES </h4>"},
 {"title": "Arrested Development"}
 ];
