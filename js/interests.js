@@ -113,6 +113,12 @@ var movies21 = [
 {"title": "The Sound of Music"},
 {"title": "This is the End"},
 {"title": "Get Shorty"},
+{"title": "Paterno"},
+{"title": "Stranger Than Fiction"},
+{"title": "Naked Gun"},
+{"title": "The Social Dilemma"},
+{"title": "Training Day"},
+
 {"title":"<h4>SERIES </h4>"},
 {"title": "Arrested Development"}
 ];
