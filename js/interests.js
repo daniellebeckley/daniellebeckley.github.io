@@ -30,7 +30,8 @@ var books21 = [
 {"title":"Headhunters", "author":"Jo Nesbø"},
 {"title":"Rabbit, Run", "author":"John Updike"},
 {"title":"Rabbit Redux", "author":"John Updike"},
-{"title":"Carson McCullers (short story)", "author":"The Ballad of the Sad Cafe"}
+{"title":"Carson McCullers (short story)", "author":"The Ballad of the Sad Cafe"},
+{"title", "Rabbit is Rich", "author": "John Updike"}
 
 ];
 
@@ -118,6 +119,10 @@ var movies21 = [
 {"title": "Naked Gun"},
 {"title": "The Social Dilemma"},
 {"title": "Training Day"},
+{"title": "Burden of Dreams"},
+{"title":"Unforgiven"},
+{"title":"Bowfinger"},
+{"title":"RAW - Edie Murphy standup"},
 
 {"title":"<h4>SERIES </h4>"},
 {"title": "Arrested Development"}
